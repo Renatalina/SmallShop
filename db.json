@@ -1,0 +1,224 @@
+{
+  "goods": [
+    {
+      "idGoods": "2",
+      "parent": "document.body",
+      "img": "./img/3263.jpg",
+      "titileGood": "Sun",
+      "discription": "Chocolate sun from ChefCooker Miraviglia",
+      "comments": [
+        {
+          "title": "Good product",
+          "comment": "If you make POST, PUT, PATCH or DELETE requests, changes will be automatically and safely saved to db.json using lowdb."
+        },
+        {
+          "title": "Filter",
+          "comment": "GET /posts?title=json-server&author=typicode <br> GET /posts?id=1&id=2   <br> GET /comments?author.name=typicode"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "idGoods": "3",
+      "parent": "document.body",
+      "img": "./img/3262.jpg",
+      "titileGood": "Sun",
+      "discription": "Chocolate sun from ChefCooker Miraviglia",
+      "comments": [
+        {
+          "title": "Paginate",
+          "comment": "In the Link header you'll get first, prev, next and last links. GET /posts?_page=7 GET /posts?_page=7&_limit=20"
+        },
+        {
+          "title": "Sort",
+          "comment": "GET /posts?_sort=views&_order=asc GET /posts/1/comments?_sort=votes&_order=asc"
+        },
+        {
+          "title": "Slice",
+          "comment": "GET /posts?_start=20&_end=30  GET /posts/1/comments?_start=20&_limit=10 "
+        },
+        {
+          "title": "Operators",
+          "comment": "GET /posts?views_gte=10&views_lte=20 "
+        },
+        {
+          "title": "Full-text search",
+          "comment": "GET /posts?q=internet"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "idGoods": "4",
+      "parent": "document.body",
+      "img": "./img/3264.jpg",
+      "titileGood": "Sun",
+      "discription": "Chocolate sun from ChefCooker Miraviglia",
+      "comments": [
+        {
+          "title": "Relationships",
+          "comment": "GET /posts/1?_embed=comments "
+        },
+        {
+          "title": "Alternative port",
+          "comment": "You can start JSON Server on other ports with the --port flag:  json-server --watch db.json --port 3004"
+        },
+        {
+          "title": "Doctor Strange",
+          "comment": "He is very Strange!"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "idGoods": "4",
+      "parent": "document.body",
+      "img": "./img/3266.jpg",
+      "titileGood": "Sun",
+      "discription": "Chocolate sun from ChefCooker Miraviglia",
+      "comments": [
+        {
+          "title": "Generate random data",
+          "comment": "jsmodule.exports = () =>> { const data =  { users: [] }/ /  Create 1000 users for( let i =  0; i <  1000; i++) { data.users.push({ id:  i, name:  'user${ i} ` })}return data          }"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "idGoods": "1",
+      "parent": "document.body",
+      "img": "./img/3262.jpg",
+      "titileGood": "Sun",
+      "discription": "Chocolate sun from ChefCooker Miraviglia",
+      "comments": [
+        {
+          "title": "Add middlewares",
+          "comment": "You can add your middlewares from the CLI using --middlewares option"
+        },
+        {
+          "title": "Custom output example",
+          "comment": "To modify responses, overwrite router.render method:  router.render = (req, res) =>> {  res.jsonp({ body:  res.locals.data  })}"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "idGoods": "2",
+      "parent": "document.body",
+      "img": "./img/3263.jpg",
+      "titileGood": "Sun",
+      "discription": "Chocolate sun from ChefCooker Miraviglia",
+      "comments": [
+        {
+          "title": "You can set your own status code for the response:",
+          "comment": ".render = (req, res) =>> {res.status( 500).jsonp({error:  'error message here'   })}"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "idGoods": "3",
+      "parent": "document.body",
+      "img": "./img/3264.jpg",
+      "titileGood": "Sun",
+      "discription": "Chocolate sun from ChefCooker Miraviglia",
+      "comments": [
+        {
+          "title": "Rewriter example",
+          "comment": "server.use(jsonServer.rewriter({'/api/*':  '/ $1 ','/blog/:resource/:id/show': '/:resource/:id'}))"
+        },
+        {
+          "title": "Mounting JSON Server on another endpoint example",
+          "comment": "server.use('/api', router)"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "idGoods": "4",
+      "parent": "document.body",
+      "img": "./img/3266.jpg",
+      "titileGood": "Sun",
+      "discription": "Chocolate sun from ChefCooker Miraviglia",
+      "comments": [
+        {
+          "title": "API",
+          "comment": "jsonServer.create()  jsonServer.defaults([options])"
+        }
+      ],
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "name": "Natalina",
+      "surname": "Rustamov",
+      "age": "33",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "Natalina",
+      "surname": "Rustamov",
+      "age": "33",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "Rammir",
+      "surname": "Rustamov",
+      "email": "Renatalina@yandex.ru",
+      "password": "dfgs",
+      "id": 3
+    },
+    {
+      "name": "Rammir",
+      "surname": "Rustamov",
+      "email": "Renatalina@yandex.ru",
+      "password": "ssss",
+      "id": 3
+    },
+    {
+      "name": "Максим",
+      "surname": "Lanskaya",
+      "email": "maksim@mail.com",
+      "password": "репеарарпапра",
+      "id": 4
+    },
+    {
+      "name": "Максим",
+      "surname": "Lanskaya",
+      "email": "maksim@mail.com",
+      "password": "репеарарпапра",
+      "id": 5
+    },
+    {
+      "name": "Максим",
+      "surname": "Lanskaya",
+      "email": "maksim@mail.com",
+      "password": "репеарарпапра",
+      "id": 6
+    },
+    {
+      "name": "Максим",
+      "surname": "Lanskaya",
+      "email": "maksim@mail.com",
+      "password": "репеарарпапра",
+      "id": 7
+    },
+    {
+      "name": "Максим",
+      "surname": "Lanskaya",
+      "email": "maksim@mail.com",
+      "password": "репеарарпапра",
+      "id": 8
+    },
+    {
+      "name": "Rammir",
+      "surname": "Rustamov",
+      "email": "maksim@mail.com",
+      "password": "121212",
+      "id": 9
+    }
+  ]
+}
